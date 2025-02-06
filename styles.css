@@ -20,4 +20,15 @@ body {
     width: 1000px;
     height: 680px;
     border: 1px solid black;
+    display: flex;
+}
+
+.left-content-wrapper {
+    flex: 2;
+    background-image: url(images/archee-lal-Ava99AKO7P4-unsplash.jpg);
+    background-size: cover;
+}
+
+.right-content-wrapper {
+    flex: 3;
 }
