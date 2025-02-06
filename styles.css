@@ -26,9 +26,23 @@ body {
 }
 
 .left-content-wrapper {
+    position: relative;
     flex: 2;
     background-image: url(images/archee-lal-Ava99AKO7P4-unsplash.jpg);
     background-size: cover;
+}
+
+.credits {
+    position: absolute;
+    left: 30%;
+    bottom: 2%;
+    color: white;
+    text-align: center;
+    font-size: 0.7rem;
+}
+
+.credits a:link {
+    color: white;
 }
 
 .right-content-wrapper {
