@@ -1,3 +1,13 @@
+@font-face {
+    font-family: '1942';
+    src: url(fonts/1942-webfont.woff);
+}
+
+@font-face {
+    font-family: '1942-2';
+    src: url(fonts/1942-webfont.woff2);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -23,6 +33,7 @@ body {
     border: 1px solid rgb(208, 208, 208);
     display: flex;
     box-shadow: 5px 2px 5px 0px #8d8d8d;
+    background: rgb(255, 255, 255);
 }
 
 .left-content-wrapper {
@@ -30,6 +41,31 @@ body {
     flex: 2;
     background-image: url(images/archee-lal-Ava99AKO7P4-unsplash.jpg);
     background-size: cover;
+}
+
+.logo-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    margin-top: 150px;
+    height: 130px;
+    width: 100%;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+    background: rgba(0, 0, 0, 0.479);
+}
+
+.logo-section img {
+    width: 100px;
+    height: 100px;
+}
+
+.logo-section span {
+    color: white;
+    font-family: '1942-2', Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 40px;
+    text-wrap: nowrap;
 }
 
 .credits {
